@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-image: url("pacground.jpg");
+        }
+        h1{
+            color: deepskyblue;
+        }
+        div{
+            background-image: url("rainbow.gif");
+        }
+        h2{
+            color: red;
+        }
+        h3{
+            color: ghostwhite;
+        }
+    </style>
+    <script>
+        function troca() {
+            document.getElementById("boom").innerHTML = "Brincadeira. Para realmente iniciar o jogo aperte o botão laaaaaa em baixo XD"
+        }
+    </script>
+</head>
+<body>
+<div style="text-align: center">
+    <h1 style="text-align: center">Pac Mao</h1>
+    <h2 style="text-align: center">Como Jogar</h2>
+    <h3>←:Vai para esquerda
+        ↑:Vai para cima
+        →:Vai para direita
+        ↓:Vai para baixo</h3>
+    <button type="button" onclick="troca()">Inicie o Jogo</button><br>
+
+    <button type="button" style="align-content: flex-end;color: darkred;"></button>
+    <a href="http://localhost:8080/jogo" id="boom"></a>
+</div>
+
+</body>
+</html>
